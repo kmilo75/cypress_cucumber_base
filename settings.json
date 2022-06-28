@@ -1,0 +1,9 @@
+{
+    "[feature]": {
+        "editor.formatOnSave": true
+    },
+    "cucumberautocomplete.steps": [
+        "cypress/integration/**/*.js",
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true
+}

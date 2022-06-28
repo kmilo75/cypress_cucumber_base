@@ -1,0 +1,11 @@
+{
+	"homePage": {
+		"homeContentFeatured": {
+			"homeContentFeatured": {
+				"container": ".locator-for-the-container",
+			}
+		}
+	}
+}
+
+

@@ -1,0 +1,38 @@
+{
+  "name": "cypress_cucumber_base",
+  "version": "1.0.0",
+  "description": "This project contains a template to start with the automation with cypress and cucumber",
+  "main": "index.js",
+  "scripts": {
+   "cy:test": "cypress run",
+   "cy:open": "cypress open",
+   "cy:report": "node ./cucumber-html-report.js"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/kmilo75/cypress_cucumber_base.git"
+},
+"keywords": [],
+"author": "",
+"license": "ISC",
+"bugs": {
+  "url": "https://github.com/kmilo75/cypress_cucumber_base/issues"
+},
+"homepage": "https://github.com/kmilo75/cypress_cucumber_base#readme",
+"devDependencies": {
+  "cypress": "^9.7.0",
+  "cypress-cucumber-attach-screenshots-to-failed-steps": "^1.0.0",
+  "cypress-cucumber-preprocessor": "^4.3.1",
+  "cypress-xpath": "^2.0.0",
+  "multiple-cucumber-html-reporter": "^1.21.4"
+},
+"cypress-cucumber-preprocessor": {
+  "nonGlobalStepDefinitions": true,
+  "cucumberJson": {
+    "generate": true,
+    "outputFolder": "cypress/cucumber-json",
+    "filePrefix": "",
+    "fileSuffix": ".cucumber"
+  }
+}
+}
